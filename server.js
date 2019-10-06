@@ -9,6 +9,7 @@ var myfile=fs.readFileSync("./product.html");
 var json=fs.readFileSync("./data.json");
 myfile=myfile+"";
 var json=JSON.parse(json);
+var abc=1;
 // myfile=myfile.replace(/)
 function replace(product,template){
     template=template.replace(/#image#/g,product["image"]);
